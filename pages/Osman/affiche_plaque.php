@@ -1,5 +1,5 @@
 <?php
-// Connexion à la base de données
+"""Connexion à la base de données"""
 try {
     $pdo = new PDO('mysql:host=localhost;charset=utf8;dbname=db_CETINER', '22409662', '726209');
     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
